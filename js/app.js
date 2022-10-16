@@ -18,10 +18,10 @@ let links = document.querySelectorAll('link');
 
 // dark mood function
 let darkMoodfunction = () => {
-  if(links[2].href == "./css/main.css"){
-    links[2].href = "./css/dark.css";
+  if(links[2].href == "file:///I:/Full%20stack%20php%202022/on%2025/taskat/js%209-10-2022%20todolist/css/main.css"){
+    links[2].href = "file:///I:/Full%20stack%20php%202022/on%2025/taskat/js%209-10-2022%20todolist/css/dark.css";
      }else{
-    links[2].href = "./css/main.css"
+    links[2].href = "file:///I:/Full%20stack%20php%202022/on%2025/taskat/js%209-10-2022%20todolist/css/main.css"
   }
 }
 // to close validation message
